@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: #4682B4
+
+}
+#header h1{
+    color: #400;
+    float: left;
+}
+header #busca{
+    margin: 0px;
+    float: right;
+    margin-right: 30px; 
+}
+header #busca input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 5px;
+}
+header #busca input[type="submit"]{
+    background: #054F77;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+header #busca input[type="text"]:hover{
+    box-shadow: #054F77 0px 1px 3px;
+
+}
+header #busca input[type="submit"]:hover{
+    background: #5F9EA0;
+    color: rgb(10, 60, 80);
+
+}
+nav{
+    padding: 20px 0px;
+}
+nav ul li{
+    list-style:none;
+    float: left;
+    margin-left: 30px
+}
+
+.loginCadastro{
+	width: 100%;
+	height: 650px;
+	background: #fff;
+	overflow:hidden;
+}
+#boxCadLog{
+	margin:50px auto;
+	width: 300px;
+	background: #f6f6f6;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	-o-border-radius:7px;
+	-moz-border-radius:7px;
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.16);
+    	-moz-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.16);
+	box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.16);
+}
+#boxCadLog h3{
+	font-weight: bold;
+	color: #333;
+	font-family: segoe ui light, arial, tahoma;
+	text-align: center;
+	padding: 5px;
+}
+#boxCadLog label{
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: segoe ui light, arial, tahoma;
+	margin-bottom: 5px;
+}
+#boxCadLog form{
+	position: relative;
+	width: 450px;
+	display: block;
+	padding: 15px;
+}
+#boxCadLog input[type="text"], input[type="password"], select{
+	width: 250px;
+	border:0px solid #000;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	-o-border-radius:7px;
+	-moz-border-radius:7px;
+	padding: 7px;
+	color:#707070;
+	font-family: segoe ui light, arial,tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#boxCadLog input[type="submit"]{
+	width: 60%;
+	height:35px;
+	background: #3a91ba;
+	border:0px solid #000;
+	font-family: segoe ui light, arial, tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	color:#fff;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+/* Efeito aplicado nos inputs e selects na pagina cadastro */
+#boxCadLog input[type="text"]:focus{
+	transition: box-shadow 1s;
+	-webkit-box-shadow: 0px 0px 7px 2px rgba(58,146,186,1);
+	-moz-box-shadow: 0px 0px 7px 2px rgba(58,146,186,1);
+	box-shadow: 0px 0px 7px 2px rgba(58,146,186,1);
+}
+#boxCadLog input[type="password"]:focus{
+	transition: box-shadow 1s;
+	-webkit-box-shadow: 0px 0px 7px 2px rgba(58,146,186,1);
+	-moz-box-shadow: 0px 0px 7px 2px rgba(58,146,186,1);
+	box-shadow: 0px 0px 7px 2px rgba(58,146,186,1);
+}
+#boxCadLog select:focus{
+	transition: box-shadow 1s;
+	-webkit-box-shadow: 0px 0px 7px 2px rgba(58,146,186,1);
+	-moz-box-shadow: 0px 0px 7px 2px rgba(58,146,186,1);
+	box-shadow: 0px 0px 7px 2px rgba(58,146,186,1);
+}
+#boxCadLog input[type="submit"]:hover{
+	background: #2a5263;
+	transition: background 2s;
+}

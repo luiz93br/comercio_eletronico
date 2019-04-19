@@ -1,0 +1,7 @@
+criar projeto: django-admin startproject nomeProjeto
+
+acessar a pasta do projeto: python manage.py runserver
+
+localhost:8000
+
+criar aplicação: python manage.py startapp nomeAPP
