@@ -2,43 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-header{
-    width: 100%;
-    height: 80px;
-    background: #4682B4
 
-}
-#header h1{
-    color: #400;
-    float: left;
-}
-header #busca{
-    margin: 0px;
-    float: right;
-    margin-right: 30px; 
-}
-header #busca input[type="text"]{
-    width: 200px;
-    height: 30px;
-    border-radius: 5px;
-    border-style: none;
-    padding-left: 5px;
-}
-header #busca input[type="submit"]{
-    background: #054F77;
-    color: #fff;
-    width: 80px;
-    height: 30px;
-    border-radius: 5px;
-    border-style: none;
-}
-header #busca input[type="text"]:hover{
-    box-shadow: #054F77 0px 1px 3px;
-
-}
-header #busca input[type="submit"]:hover{
-    background: #5F9EA0;
-    color: rgb(10, 60, 80);
 
 }
 nav{
@@ -59,7 +23,7 @@ nav ul li{
 #boxCadLog{
 	margin:50px auto;
 	width: 300px;
-	background: #f6f6f6;
+	background: #A9A9A9;
 	border-radius:7px;
 	-webkit-border-radius:7px;
 	-o-border-radius:7px;
@@ -105,7 +69,7 @@ nav ul li{
 #boxCadLog input[type="submit"]{
 	width: 60%;
 	height:35px;
-	background: #3a91ba;
+	background: #000000;
 	border:0px solid #000;
 	font-family: segoe ui light, arial, tahoma;
 	font-size: 16px;
@@ -136,6 +100,6 @@ nav ul li{
 	box-shadow: 0px 0px 7px 2px rgba(58,146,186,1);
 }
 #boxCadLog input[type="submit"]:hover{
-	background: #2a5263;
+	background: #A9A9A9;
 	transition: background 2s;
 }

@@ -11,3 +11,5 @@ def login(request):
 	return render(request,"login.html")
 def xboxOne(request):
 	return render(request,"xboxOne.html")
+def cadastro(request):
+	return render(request,"cadastro.html")

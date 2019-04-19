@@ -24,5 +24,6 @@ urlpatterns = [
     path('ps4/', ps4),
     path('login/', login),
     path('xboxOne/', xboxOne),
-    path('admin/', admin.site.urls),    
+	path('cadastro/', cadastro),
+	path('admin/', admin.site.urls),    
 ]
