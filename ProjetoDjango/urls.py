@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from AplicacaoDjango.views import *
+from AppDjango.views import *
 
 urlpatterns = [
 	path('index/', index),
